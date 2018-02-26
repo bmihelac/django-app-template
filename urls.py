@@ -1,10 +1,7 @@
-# -*- coding: utf-8 -*-
-from __future__ import unicode_literals
-
-from django.conf.urls import patterns, url
+from django.conf.urls import path, path_re
 
 
-urlpatterns = patterns(
-  '',
-#    url(r'^$', 'views.index', name='index'),
-)
+urlpatterns = [
+   # path('articles/<int:year>/', views.year_archive),
+   # path_re(r'^$', 'views.index', name='index'),
+]
